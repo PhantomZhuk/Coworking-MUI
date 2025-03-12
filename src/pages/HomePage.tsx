@@ -1,9 +1,14 @@
 import React from 'react';
+import MediaCard from '../components/Card';
+import Header from '../components/Header';
 
 const HomePage: React.FC = () => {
     return (
         <div>
-            <h1>Home Page</h1>
+            <Header />
+            <div className='flex flex-wrap gap-4 p-5'>
+                <MediaCard />
+            </div>
         </div>
     );
 };
